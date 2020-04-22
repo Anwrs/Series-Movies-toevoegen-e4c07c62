@@ -35,7 +35,7 @@ if (isset($_GET['id'])) :
             <div style="display: flex; align-items:center; height: 20px;"><h2>Duur-</h2><input type="text" value="<?= $row['duur']?>" name="duur" id=""></div><br>
             <div style="display: flex; align-items:center; height: 20px;"><h2>Datum van uitkomst-</h2><input type="text" value="<?= $row['datum_van_uitkomst']?>" name="datum_van_uitkomst" id=""></div><br>
             <div style="display: flex; align-items:center; height: 20px;"><h2>Land van uitkomst-</h2><input type="text" value="<?= $row['land_van_uitkomst']?>" name="land_van_uitkomst" id=""></div><br>
-            <div style="display: flex; align-items:center; height: 20px;"><h2>Omschrijving-</h2><input type="text" value="<?= $row['description']?>" name="description" id=""></div><br>
+            <div style="display: flex; align-items:center; height: 50px;"><h2>Omschrijving-</h2><textarea rows="4" cols="50" type="text" name="description" id=""><?= $row['description']?></textarea></div><br>
             <div style="display: flex; align-items:center; height: 20px;"><h2>Youtube Trailer id-</h2><input type="text" value="<?= $row['youtube_trailer_id']?>" name="youtube_trailer_id" id=""></div><br>
             <button type="submit" name="submit">Wijzig</button>
         </form>

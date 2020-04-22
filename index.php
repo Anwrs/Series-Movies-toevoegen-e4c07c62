@@ -31,6 +31,7 @@ try {
 
     <h1>Welkom op het netland beheerderpaneel</h1>
     <h2>Series</h2>
+    <a href="series_toevoegen.php">Series toevoegen</a>
     <table>
         <tr>
             <th>Titel</th>
@@ -48,6 +49,7 @@ try {
     </table>
 
     <h2>Films</h2>
+    <a href="films_toevoegen.php">Films toevoegen</a>
     <table>
         <tr>
             <th>Titel</th>
